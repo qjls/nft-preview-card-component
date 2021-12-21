@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+    --neutral-dark-blue-main: hsl(217, 54%, 11%);
+    --neutral-dark-blue-card: hsl(216, 50%, 16%);
+    --neutral-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    font-family: url(https://fonts.google.com/specimen/Outfit);
+    font-size: 10px;
+    background-color: var(--neutral-dark-blue-main);
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
